@@ -16,25 +16,13 @@
 #include <string>
 #include <iomanip>
 
-/*
-first name
-last name
-nickname
-login
-postal address
-email address
-phone number
-birthday date
-favorite meal
-underwear color
-darkest secret
-*/
-
 class	Contact{
 
 public:
-	std::string	getField( int fieldId ) const;
-	void		setField( std::string str, int fieldId );
+	bool		emptyContact() const;
+	std::string	getField(int fieldId) const;
+	void		setField(std::string str, int fieldId);
+	void		printAllFields(std::string arr[]) const;
 
 private:
 	std::string	_allFields[11];

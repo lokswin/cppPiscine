@@ -6,15 +6,15 @@
 #    By: drafe <drafe@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/03/03 20:00:18 by drafe             #+#    #+#              #
-#    Updated: 2020/03/11 16:56:04 by drafe            ###   ########.fr        #
+#    Updated: 2020/03/13 21:13:03 by drafe            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CC = clang++
+CC = g++
 
 FLAGS = -Wall -Werror -Wextra
 
-NAME = phone_book
+NAME = phoneBook
 
 LIBRARIES = 
 
